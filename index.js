@@ -7,48 +7,6 @@ const questions = [
      // Name of your project
       {
         type: 'input',
-        name: 'Title',
-        message: 'Your Project Title? (Required)',
-        validate: titleInput => {
-            if (titleInput) {
-                return true;
-            } else {
-                console.log('Title needed!');
-                return false;
-            }
-        }
-    },
-     // Name of your project
-      {
-        type: 'input',
-        name: 'Description',
-        message: 'Provide a short explanation (Required)',
-        validate: titleInput => {
-            if (titleInput) {
-                return true;
-            } else {
-                console.log('Description!');
-                return false;
-            }
-        }
-    },
-     // Name of your project
-      {
-        type: 'input',
-        name: '',
-        message: 'Your Project Title? (Required)',
-        validate: titleInput => {
-            if (titleInput) {
-                return true;
-            } else {
-                console.log('Title needed!');
-                return false;
-            }
-        }
-    },
-     // Name of your project
-      {
-        type: 'input',
         name: 'title',
         message: 'Your Project Title? (Required)',
         validate: titleInput => {
@@ -60,8 +18,49 @@ const questions = [
             }
         }
     },
-
-
+     //Description
+      {
+        type: 'input',
+        name: 'description',
+        message: 'Provide a short explanation (Required)',
+        validate: descriptionInput => {
+            if (descriptionInput) {
+                return true;
+            } else {
+                console.log('Description!');
+                return false;
+            }
+        }
+    },
+    
+    //Installation
+    {
+        type: 'input',
+        name: 'installation',
+        message: 'Steps required to install your project? (Required)',
+        validate: installationInput => {
+            if (installationInput) {
+                return true;
+            } else {
+                console.log('Installation!');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'Steps required to install your project? (Required)',
+        validate: usageInput => {
+            if (usageInput) {
+                return true;
+            } else {
+                console.log('Step-by-step description !');
+                return false;
+            }
+        }
+    },
+     
 
 ];
 
