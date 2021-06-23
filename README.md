@@ -19,14 +19,16 @@
   To install this application, user needs node
   ## Usage:
   Used to generate a professional READMe
-  ## Test
+  ## Test:
   Node index.js is used in the ntegrated terminal to run tests
   ## License:
   This project is protected under the terms of the [undefined]
   
-  ## Questions
+  ## Questions:
   Contact me for any questions!!
   * Contact Email: kahurasamuel@gmail.com
   * GitHub Profile: [snk-99](https://github.com/snk-99snk-99)
+
+  
 
   
