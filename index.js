@@ -2,8 +2,6 @@
 const generateMarkdown = require('./utils/generateMarkdown');
 const inquirer = require('inquirer');
 const fs = require('fs');
-const Choices = require('inquirer/lib/objects/choices');
-const Choice = require('inquirer/lib/objects/choice');
 // TODO: Create an array of questions for user input
 const questions = [
     // Name of your project
@@ -64,7 +62,7 @@ const questions = [
             }
         }
     },
-   
+   //test
     {
         type: 'input',
         name: 'test',
@@ -78,8 +76,22 @@ const questions = [
             }
         }
     },
-    
-    
+    // license
+    {
+        type: 'checkbox',
+        name: 'licensing',
+        message: 'Choose licensing for your project',
+        choices: ['MIT License','GNU General Public License v3.0','Apache License 2.0'],
+        validate: (licenseInput) => {
+            if (licenseInput){
+                return true;
+            }else{
+                console.log('You must choose a license for the project');
+                return false;
+            }
+        }
+    },  
+    //email
     {
         type: 'input',
         name: 'email',
@@ -90,7 +102,7 @@ const questions = [
             } 
         }
     },
-    
+    //github
     {
         type: 'input',
         name: 'github',
@@ -100,19 +112,8 @@ const questions = [
                 return true;
             } 
         }
-    },
+    }
     
-    {
-        type: 'list',
-        name: 'license',
-        message: ('Choose licensing for your project'),
-        choises: ['MIT License','GNU General Public License v3.0','Apache License 2.0'],
-        validate: (licenseInput) => {
-            if (licenseInput){
-                return true;
-            }
-        }
-    }  
 
 ];
 

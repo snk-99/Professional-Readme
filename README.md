@@ -1,7 +1,9 @@
-# Title:
+
+  [![License](https://img.shields.io/badge/License-undefined-blue.svg)](https://opensource.org/licenses/undefined)
+  
+  # Title:
   Professional-Readme
   
-  undefinedundefined
 
   ## Table of Contents: 
   * [Project Description](#description)
@@ -12,17 +14,17 @@
   * [Questions](#questions)
   
   ## Description:
-  A command-line application that dynamically generates a professional README.md file from a user's input 
+  A command-line application that dynamically generates a professional README.md file from a user's input
   ## Installation:
   use node index.js in the terminal
   ## Usage:
-   screenshots
+  screenshots
   ## Test
   No test yet
   ## License:
-  undefined
+   This project is protected under the terms of the undefined
   
-  ## QUESTIONS
+  ## Questions
   Contact me for any questions!!
   * Contact Email: kahurasamuel@gmail.com
   * GitHub Profile: [snk-99](https://github.com/snk-99snk-99)
