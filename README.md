@@ -14,15 +14,15 @@
   * [Questions](#questions)
   
   ## Description:
-  A command-line application that dynamically generates a professional README.md file from a user's input
+  The purpose of this Readme generator is the help you have more time on your project.
   ## Installation:
-  use node index.js in the terminal
+  To install this application, user needs node
   ## Usage:
-  screenshots
+  Used to generate a professional READMe
   ## Test
-  No test yet
+  Node index.js is used in the ntegrated terminal to run tests
   ## License:
-   This project is protected under the terms of the undefined
+  This project is protected under the terms of the [undefined]
   
   ## Questions
   Contact me for any questions!!

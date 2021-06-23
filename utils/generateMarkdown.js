@@ -26,7 +26,7 @@ function generateMarkdown(data) {
   ## Test
   ${data.test}
   ## License:
-  This project is protected under the terms of the ${data.license}
+  This project is protected under the terms of the [${data.license}]
   
   ## Questions
   Contact me for any questions!!
