@@ -22,12 +22,14 @@
   ## Test:
   Node index.js is used in the ntegrated terminal to run tests
   ## License:
-  This project is protected under the terms of the [undefined]
+  This project is protected under the terms of the 
   
   ## Questions:
   Contact me for any questions!!
   * Contact Email: kahurasamuel@gmail.com
   * GitHub Profile: [snk-99](https://github.com/snk-99snk-99)
+  
+  Demo video https://youtu.be/lD3Z5zR4SL8
 
   
 
