@@ -33,8 +33,7 @@ function generateMarkdown(data) {
   * Contact Email: ${data.email}
   * GitHub Profile: [${data.github}](https://github.com/snk-99${data.github})
 
-  [Demo](https://youtu.be/lD3Z5zR4SL8)
-  
+[Demo video](https://youtu.be/lD3Z5zR4SL8)
 `;
 }
 // export the generateMarkdown function to index.js
